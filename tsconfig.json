@@ -1,7 +1,12 @@
 {
+  "compilerOptions": {
+    "composite": true, // Often set to true in the root if it's referenced, or if it acts as a project for other tools.
+    "tsBuildInfoFile": "./node_modules/.tsbuildinfo" // Where build info is stored
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  "include": []
 }
