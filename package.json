@@ -1,5 +1,6 @@
 {
   "name": "todo-list",
+  "homepage": "https://hyflicker.github.io/React-Todo-List/",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -7,9 +8,12 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeplay": "npm run build",
+    "deplay": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
